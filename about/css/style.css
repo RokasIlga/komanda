@@ -1,118 +1,116 @@
-
 .parent {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 218px);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-  }
-  .top{
-    grid-area: 1/4/2/10;
-  }
-  .aboutcollage{
-    grid-area: 3/7/4/9;
-  }
-  #books{
-    grid-area: 3/4/6/6;
-    z-index: -1;
-  }
-  #grad{
-    z-index: 1;
-    grid-area: 4/5/5/7;
-  }
-  #rec1{
-    grid-area: 4/12;
-  }
-  #rec2{
-    grid-area: 5/12;
-  }
-  #rec3{
-    grid-area: 6/12;
-  }
-.top{
-    width: 1170px;
-    height: 216px;
-    border-radius: 11px;
-    background-color: #133e3f;
-    display: flex;
-    align-items: center;
-    padding: 0px 25px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 218px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
-.aboutcollage{
-    text-align: left;
+.top {
+  grid-area: 1/4/2/10;
 }
-  a{
-    display: inline;
-    white-space: nowrap;
-    font-size: 17px;
-line-height: 30px;
-color: #fdda6e;
-font-weight: 400;
-font-family: "Poppins";
-  }
-  h2{
-    
-    font-size: 35px;
-line-height: 30px;
-color: #040404;
-font-weight: 700;
-font-family: "Poppins";
-  }
-  h3{
-    color: white;
-    font-size: 25px;
-line-height: 30px;
-color: #ffffff;
-font-weight: 400;
-font-family: "Poppins";
+.aboutcollage {
+  grid-area: 3/7/4/9;
 }
-  p{
-    width: 513px;
-height: 95px;
-font-size: 17px;
-line-height: 30px;
-color: #444443;
-font-weight: 400;
-font-family: "Poppins";
-  }
-  #books{
-    width: 475px;
-    height: 508px;
-  }
-  #grad{
-    width: 487px;
-    height: 325px;
-  }
-  #readmr {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 225px;
-    height: 56px;
-    background-color: #133e3f;
-    cursor: pointer;
-    font-size: 22px;
-    color: white;
-  }
-  .aboutcollage{
-    padding: 40px;
-  }
-  #rec1{
-    justify-self: end;
-    align-self: end;
-    width: 40px;
+#books {
+  grid-area: 3/4/6/6;
+  z-index: -1;
+}
+#grad {
+  z-index: 1;
+  grid-area: 4/5/5/7;
+}
+#rec1 {
+  grid-area: 4/12;
+}
+#rec2 {
+  grid-area: 5/12;
+}
+#rec3 {
+  grid-area: 6/12;
+}
+.top {
+  width: 1170px;
+  height: 216px;
+  border-radius: 11px;
+  background-color: #133e3f;
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+}
+.aboutcollage {
+  text-align: left;
+}
+a {
+  display: inline;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fdda6e;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+h2 {
+  font-size: 35px;
+  line-height: 30px;
+  color: #040404;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+h3 {
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+p {
+  width: 513px;
+  height: 95px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #444443;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+#books {
+  width: 475px;
+  height: 508px;
+}
+#grad {
+  width: 487px;
+  height: 325px;
+}
+#readmr {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  height: 56px;
+  background-color: #133e3f;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+.aboutcollage {
+  padding: 40px;
+}
+#rec1 {
+  justify-self: end;
+  align-self: end;
+  width: 40px;
   height: 78px;
-  }
-  #rec2{
-    justify-self: end;
-    align-self: center;
-    width: 40px;
+}
+#rec2 {
+  justify-self: end;
+  align-self: center;
+  width: 40px;
   height: 78px;
-  }
-  #rec3{
-    justify-self: end;
-    align-self: start; 
-    width: 40px;
+}
+#rec3 {
+  justify-self: end;
+  align-self: start;
+  width: 40px;
   height: 78px;
-  }
+}
