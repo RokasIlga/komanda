@@ -25,7 +25,6 @@ body {
 .dots {
   grid-area: 5/6/6/7;
 }
-/*  grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
 .selection-scrn {
   position: absolute;
   top: 0;
@@ -110,10 +109,8 @@ body {
   align-items: center;
 }
 #dot:hover {
-  background-color: #133e3f;
-  opacity: 0.5;
-  border-radius: 13px;
-  border: 5.07px solid #133e3f;
+  background: cover;
+  content: url(../img/hovercircle.png);
 }
 h1 {
   color: white;
