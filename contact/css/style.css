@@ -5,3 +5,9 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
+  /* FOOTER */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

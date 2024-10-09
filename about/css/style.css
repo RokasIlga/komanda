@@ -114,3 +114,9 @@ p {
   width: 40px;
   height: 78px;
 }
+/* FOOTER */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
