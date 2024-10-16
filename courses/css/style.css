@@ -1,37 +1,51 @@
-.parent {
-    width: 1170px;
-    height: 216px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-    text-align: center;
-  }
-  #readmore{
-    grid-area: 6/4/7/6;
-  }
-  #header{
-    grid-area: 1/3/2/7;
-  }
-  #paragraph{
-    grid-area: 2/3/3/7;
-  }
-  #readmore{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 225px;
-    height: 56px;
-    background-color: #133e3f;
-    cursor: pointer;
-    font-size: 22px;
-    color: white;
-  }
-  /* FOOTER */
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.Text {
+  text-align: center;
+}
+
+.images-top {
+  display: flex;
+}
+.images-bottom {
+  display: flex;
+}
+
+.pirmas {
+  background-image: url("/courses/img/Pirmas.png");
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-size: 300px, 200px;
+  color: white;
+}
+.Antras {
+  background-image: url("/courses/img/Antras.png");
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-size: 300px, 200px;
+  color: white;
+}
+.Pirmas2 {
+  background-image: url("/courses/img/antro-1.png");
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-size: 300px, 200px;
+  color: white;
+}
+.Antras2 {
+  background-image: url("/courses/img/antro-2.png");
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-size: 300px, 200px;
+  color: white;
+}
+.trecias2 {
+  background-image: url("/courses/img/antro-3.png");
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-size: 300px, 200px;
+  color: white;
 }
