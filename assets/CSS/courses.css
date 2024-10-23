@@ -1,62 +1,50 @@
-.parent {
+/* .parent {
   width: 1170px;
   height: 216px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 10px;
-  grid-row-gap: 0px;
+  grid-row-gap: 1px;
   text-align: center;
+} */
+#header{
+ text-align: center;
 }
-#readmore {
-  grid-area: 6/4/7/6;
-}
-#header {
-  grid-area: 1 / 3 / 2/ 7;
-}
-#paragraph {
-  grid-area: 3 / 2 / 1 / 4;
-}
-.images-top {
-  grid-area: 2 / 3 / 2 / 4;
-}
-.images-bottom {
-  grid-area: 3 / 4 / 2 / 6;
-}
+
+#paragraph{
+text-align: center;
+ }
 .pirmas {
-  background-image: url("/courses/img/Pirmas.png");
-  display: grid;
+  background-image: url("../img/courses_img/Pirmas.png");
   width: 300px;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
 }
 .Antras {
-  background-image: url("/courses/img/Antras.png");
+  background-image: url("../img/courses_img/Antras.png");
   width: 300px;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
 }
 .Pirmas2 {
-  background-image: url("/courses/img/antro-1.png");
-  display: grid;
+  background-image: url("../img/courses_img/antro-1.png");
   width: 300px;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
 }
 .Antras2 {
-  background-image: url("/courses/img/antro-2.png");
-  display: grid;
+  background-image: url("../img/courses_img/antro-2.png");
   width: 300px;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
 }
 .Trecias2 {
-  background-image: url("/courses/img/antro-3.png");
-  display: grid;
+  background-image: url("../img/courses_img/antro-3.png");
   width: 300px;
   height: 200px;
   background-size: 300px, 200px;
@@ -64,7 +52,6 @@
 }
 #readmore {
   text-decoration: none;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 225px;
@@ -73,4 +60,16 @@
   cursor: pointer;
   font-size: 22px;
   color: white;
+  display: flex;
+}
+
+.images-top{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.images-bottom{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
