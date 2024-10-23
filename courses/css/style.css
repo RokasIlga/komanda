@@ -1,4 +1,4 @@
-.parent{
+.parent {
   width: 1170px;
   height: 216px;
   display: grid;
@@ -8,19 +8,19 @@
   grid-row-gap: 0px;
   text-align: center;
 }
-#readmore{
+#readmore {
   grid-area: 6/4/7/6;
 }
-#header{
-  grid-area: 1/3/2/7;
+#header {
+  grid-area: 1 / 3 / 2/ 7;
 }
-#paragraph{
+#paragraph {
   grid-area: 3 / 2 / 1 / 4;
 }
-.images-top{
+.images-top {
   grid-area: 2 / 3 / 2 / 4;
 }
-.images-bottom{
+.images-bottom {
   grid-area: 3 / 4 / 2 / 6;
 }
 .pirmas {
@@ -62,7 +62,7 @@
   background-size: 300px, 200px;
   color: white;
 }
-#readmore{
+#readmore {
   text-decoration: none;
   display: flex;
   justify-content: center;
