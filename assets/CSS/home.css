@@ -4,7 +4,6 @@ body {
 }
 
 .parent {
-  width: 1170px;
   height: 216px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
