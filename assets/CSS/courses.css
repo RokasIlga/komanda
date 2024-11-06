@@ -1,13 +1,4 @@
-/* .parent {
-  width: 1170px;
-  height: 216px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 1px;
-  text-align: center;
-} */
+
 #header{
  text-align: center;
 }
@@ -21,6 +12,8 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+  border-radius: 5px;
+  vertical-align: bottom;
 }
 .Antras {
   background-image: url("../img/courses_img/Antras.png");
@@ -28,6 +21,7 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+  border-radius: 5px;
 }
 .Pirmas2 {
   background-image: url("../img/courses_img/antro-1.png");
@@ -35,6 +29,7 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+  border-radius: 5px;
 }
 .Antras2 {
   background-image: url("../img/courses_img/antro-2.png");
@@ -42,6 +37,7 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+  border-radius: 5px;
 }
 .Trecias2 {
   background-image: url("../img/courses_img/antro-3.png");
@@ -49,8 +45,9 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+  border-radius: 5px;
 }
-#readmore {
+#readmore{
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -60,16 +57,21 @@ text-align: center;
   cursor: pointer;
   font-size: 22px;
   color: white;
+  margin-top: 50px;
   display: flex;
+  margin: auto;
+  margin-top: 20px;
 }
-
 .images-top{
   display: flex;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 5px;
+
 }
 .images-bottom{
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
+
