@@ -4,7 +4,6 @@ body {
 }
 
 .parent {
-  width: 1170px;
   height: 216px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -19,7 +18,7 @@ body {
   grid-area: 1/5/2/11;
 }
 #educ {
-  grid-area: 3/5/4/8;
+  grid-area: 3/5/4/7;
 }
 #readmr {
   grid-area: 4/6/5/7;
