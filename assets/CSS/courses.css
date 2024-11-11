@@ -1,13 +1,4 @@
-/* .parent {
-  width: 1170px;
-  height: 216px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 1px;
-  text-align: center;
-} */
+
 #header{
  text-align: center;
 }
@@ -49,11 +40,11 @@ text-align: center;
   height: 200px;
   background-size: 300px, 200px;
   color: white;
+ 
 }
 #readmore {
   text-decoration: none;
   justify-content: center;
-  align-items: center;
   width: 225px;
   height: 56px;
   background-color: #133e3f;
@@ -62,7 +53,6 @@ text-align: center;
   color: white;
   display: flex;
 }
-
 .images-top{
   display: flex;
   justify-content: center;
