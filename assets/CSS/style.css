@@ -2,7 +2,10 @@ body {
   background-image: url('../img/home_img/backround.png');
   background-size: cover;
 }
-
+.logo>h4{
+  margin-top: -45px;
+  text-align: end;
+}
 .parent {
   height: 216px;
   display: grid;

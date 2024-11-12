@@ -6,6 +6,9 @@
 #paragraph{
 text-align: center;
  }
+ .container{
+  height: 500px;
+ }
 .pirmas {
   background-image: url("../img/courses_img/Pirmas.png");
   width: 300px;
@@ -47,19 +50,17 @@ text-align: center;
   color: white;
   border-radius: 5px;
 }
-#readmore{
-  text-decoration: none;
+button{
+width: 200px;
+height: 50px;
+border: none;
+background-color: #133e3f;
+color: white;
+}
+.button{
+  width: 100%;
   justify-content: center;
-  width: 225px;
-  height: 56px;
-  background-color: #133e3f;
-  cursor: pointer;
-  font-size: 22px;
-  color: white;
-  margin-top: 50px;
   display: flex;
-  margin: auto;
-  margin-top: 20px;
 }
 .images-top{
   display: flex;
@@ -69,6 +70,7 @@ text-align: center;
 
 }
 .images-bottom{
+  margin-top: -270px;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -85,4 +87,29 @@ text-align: center;
   background-color: #164745;
   margin-bottom: -65px;
   margin-left: 40%;
+}
+.rectangles{
+  display: flex;
+  flex-direction: column;
+  width: 40px;
+  margin-left: -10px;
+}
+.dark-blue{
+background-color: #133e3f;
+height: 70px;
+width: 40px;
+margin-top: 30px;
+}
+.blue{
+background-color: #4bc5b8;
+height: 70px;
+width: 40px;
+margin-top: 30px;
+
+}
+.light-blue{
+background-color: #d5eded;
+height: 70px;
+width: 40px;
+margin-top: 30px;
 }
