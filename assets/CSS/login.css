@@ -1,30 +1,31 @@
 body{
-  background-image: url(../img/login_img/login_backround.png);
+  height: 100%;
+  width: 99%;
+  background-color: #154647;
 }
 form{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   }
   
-  .forum>form>input,textarea{
-      width: 450px;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: none;
-          
-  }
-  textarea{
-      height: 80px;
-      resize: none;
-  }
-      
-  form>h2{
-      text-align: center;
-      color: white;
-  }
-  .forum>form>button{
+.forum>form>input,textarea{
+width: 450px;
+padding: 10px;
+margin-bottom: 15px;
+border: none;
+
+}
+textarea{
+height: 80px;
+resize: none;
+}
+
+form>h2{
+    text-align: center;
+    color: white;
+}
+.forum>form>button{
       width: 170px;
       height:50px ;
       background-color: #4bc5b8;
@@ -32,10 +33,9 @@ form{
       color: white;
   }
   /* FOOTER */
-  footer{
-
+footer{
     padding-top: 50px;
-    height: 33%;
+    height:300px;
     width:100% ;
     background-color: #232424;
     margin-top: 14px;
@@ -87,19 +87,28 @@ form{
 }
 .login-info{
     color: WHITE;
+    margin-top: 10%;
 }
 .box{
-    height: 67%;
+    width: 99%;
+    height:560px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
+    background-size:100% auto ; 
+    background-repeat: no-repeat;
 }
+
 .forum>form{
     border: none;
     background-color: gray;
     border-radius: 30px;
     padding: 10px;
     opacity: 91%;
+    margin-top: 25%;
 }
-#inp{
-    opacity: none;
+.backround{
+    background-image: url(../img/login_img/backround.png);
+    background-size:100% auto ; 
+    background-repeat: no-repeat;
+    opacity: 60%;
 }
