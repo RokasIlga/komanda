@@ -2,7 +2,6 @@ body{
   background-image: url(../img/login_img/login_backround.png);
 }
 form{
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,6 +33,7 @@ form{
   }
   /* FOOTER */
   footer{
+
     padding-top: 50px;
     height: 33%;
     width:100% ;
@@ -84,4 +84,22 @@ form{
     text-decoration: none;
     color: white;
     margin-bottom: 5px;
+}
+.login-info{
+    color: WHITE;
+}
+.box{
+    height: 67%;
+    display: flex;
+    justify-content: space-around;
+}
+.forum>form{
+    border: none;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 10px;
+    opacity: 91%;
+}
+#inp{
+    opacity: none;
 }
